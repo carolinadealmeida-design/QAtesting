@@ -1,0 +1,20 @@
+ID: TC002
+Title: Login with invalid password
+
+Precondition:
+User is registered
+
+Steps:
+1. Go to login page
+2. Enter valid username
+3. Enter invalid password
+4. Click login
+
+Expected result:
+Error message is displayed
+
+Actual result: fail
+
+Status: Fail
+
+The error message wasnt appear when I write a wrong password
